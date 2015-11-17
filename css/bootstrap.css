@@ -1125,7 +1125,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+position: absolute;
+clip: rect(0px, auto,40px,0px);
 }
+
 .img-rounded {
   border-radius: 6px;
 }
